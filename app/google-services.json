@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "223153736768",
+    "project_id": "feathr-findr",
+    "storage_bucket": "feathr-findr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223153736768:android:4a4e4ca7be512a0f5ba3a5",
+        "android_client_info": {
+          "package_name": "com.example.feathrfindr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCFTJxO89Pcl7FkAP4jKpXbNfH7MA4PHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

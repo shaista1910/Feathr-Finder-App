@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".SettingsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/box5"
+        android:layout_marginBottom="60dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Settings"
+        android:layout_marginBottom="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/box10"
+        android:textSize="30sp"
+        />
+
+
+
+    <Switch
+        android:id="@+id/notificationSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receive Notifications"
+        android:layout_marginBottom="90dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Would you like to select either kilometers or miles as your preferred unit of measurement?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/radiusLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radius:"
+        android:textSize="18sp"/>
+
+    <SeekBar
+        android:id="@+id/radiusSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:progress="10"/>
+
+    <TextView
+        android:id="@+id/radiusValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 km"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/unitLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unit:"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/unit_radio_group"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="100dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_km"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Kilometers" />
+
+        <RadioButton
+            android:id="@+id/radio_miles"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:text="Miles" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/box5"
+        android:text="Logout"
+        android:textSize="18sp"
+        app:cornerRadius="20dp" />
+
+</LinearLayout>
+

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".fragments.ChallengeFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="120dp"
+        android:background="#FF5722"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/listView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-100dp"
+        android:layout_marginBottom="30dp"
+        android:text="Bird Information"
+        android:id="@+id/loginText"
+        android:textSize="30sp"
+        android:textAlignment="center"
+
+        android:textColor="@color/box10"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Ways to PROTECT bird life"
+        android:textAlignment="center"
+        android:textColor="@color/box9"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="1. Mark Windows:
+Birds tend to hit windows because they cannot see them. The level of impact is sometimes so heavy that some end up dead."
+        android:textAlignment="center"
+        android:textColor="@color/box9"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="2. Keep the Pets Indoors:
+Cats and other house pets like hunting smaller animals, especially birds. This harms their numbers, which can be devastating in the case of endangered species."
+        android:textAlignment="center"
+        android:textColor="@color/box9"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="3. Use Natural Pest Control:
+Many bird species predate on smaller rodents and animals that feed on grain and cereals found in the open, with some birds also eating these grains themselves. Unfortunately, these food sources can be disrupted when chemicals are used for pest control."
+        android:textAlignment="center"
+        android:textColor="@color/box9"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="4. Vote Against the Use of Chemical Pesticides:
+Given the concerns mentioned earlier, it becomes crucial for people to advocate for legislation that prohibits farmers from using such chemicals.
+This would prevent the import of harmful substances into countries and discourage their use altogether."
+        android:textAlignment="center"
+        android:textColor="@color/box9"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="5. Place Trash in Appropriate Bins:
+Birds tend to be curious about the garbage that people produce. Dumping things in the open usually leads to birds attempting to eat whatever has been dumped, sometimes including materials such as paper and shiny plastic beads.
+This could end up harming the birds or causing diseases and infections."
+        android:textAlignment="center"
+        android:textColor="@color/box9"
+        android:textSize="15sp" />
+
+
+
+
+
+</LinearLayout>
